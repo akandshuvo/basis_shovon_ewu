@@ -11,8 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        $print =5;
-        echo $print;
+            $print =5;
+            echo $print;
         ?>
     </body>
 </html>
