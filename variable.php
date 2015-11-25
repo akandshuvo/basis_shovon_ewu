@@ -34,6 +34,15 @@
         // Associative array
         $array=array("name"=>"shovon","id"=>"108012");
         var_dump($array);
+        echo "<br>";
+
+        //
+
+        $loop = array('0' =>'shovon','1'=>'mamun','2'=>'suzon');
+        for($i=0;$i<=2;$i++){
+        	echo $loop[$i];
+        	echo "<br>";
+        }
 	 ?>
 
 </body>
