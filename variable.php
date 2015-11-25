@@ -25,6 +25,12 @@
         //float
 		$float =5.123457489;
         echo $float;
+        echo "<br>";
+        //array
+        $a=array('shovon','Mamun');
+        echo $a[0];
+        echo "<br>";
+        echo $a[1];
 
 
 	 ?>
