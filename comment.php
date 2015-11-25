@@ -7,6 +7,7 @@
 <body>
 	
  		<?php
+ 		// online comment
  		// Printing Variable value
             $print =5;
             echo $print;
@@ -15,6 +16,7 @@
         <br>
 
         <%
+        	#c Shell Comment
         	# Printing using ASP tag
             echo "ASP tag";
         %>
@@ -22,7 +24,8 @@
         <br>
 
         <?
-        	/*
+        	/*	
+        		>> Multiline Comment
         		>> Taking variable with value.
         		>> Adding the variables value.
         		>> Printing sum
@@ -37,6 +40,7 @@
         
         <script language="php">
    			/*
+   				>> Multiline Comment
 				>> Take string in variables
 				>> print them
    			*/	
