@@ -7,7 +7,7 @@
 <body>
 	
  		<?php
- 		// online comment
+ 		// one line comment
  		// Printing Variable value
             $print =5;
             echo $print;
