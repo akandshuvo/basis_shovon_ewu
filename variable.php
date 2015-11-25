@@ -26,13 +26,14 @@
 		$float =5.123457489;
         echo $float;
         echo "<br>";
-        //array
+        // indexed array
         $a=array('shovon','Mamun');
         echo $a[0];
         echo "<br>";
         echo $a[1];
-
-
+        // Associative array
+        $array=array("name"=>"shovon","id"=>"108012");
+        var_dump($array);
 	 ?>
 
 </body>
