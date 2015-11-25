@@ -27,6 +27,12 @@ and open the template in the editor.
         ?>
         <br>
         
+        <script language="php">
+            $name="Shovon Rahman";
+            $id ="108012";
+
+            echo $name."&nbsp;".">>>".$id
+        </script>
             
 
     </body>
