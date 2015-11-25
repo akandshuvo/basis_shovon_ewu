@@ -13,7 +13,8 @@
 		echo $a.$b
 
 		//integer
-		
+		$print =5;
+        echo $print;
 
 		//String
 		$name="Shovon Rahman";
