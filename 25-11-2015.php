@@ -19,11 +19,15 @@ and open the template in the editor.
             echo "ASP tag";
         %>
         <br>
-        <?php
+        <?
             $a=10;
             $b=20;
             $c=$a+$b;
             echo $c;
         ?>
+        <br>
+        
+            
+
     </body>
 </html>
