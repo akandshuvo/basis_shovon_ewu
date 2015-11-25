@@ -24,7 +24,13 @@ $array2=array("name"=>"shovon","id"=>"108012",10=>'BASIS web Development','langu
         echo "<pre>";
         var_dump($array2);
         echo "</pre>";
-        echo "<br>";        
+        echo "<br>";
+//Example 3
+$array3=array(false=>"shovon",true=>"108012",2.10=>'BASIS','language'=>'Web developmet in php','batch-13');
+        echo "<pre>";
+        var_dump($array3);
+        echo "</pre>";
+        echo "<br>";                
         
         //
         $loop = array('0' =>'shovon','1'=>'mamun','2'=>'suzon');
