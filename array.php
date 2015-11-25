@@ -41,7 +41,22 @@ $array4=array(false=>"shovon",true=>"108012",2.10=>'BASIS',2=>'BASIS Web develop
         echo "<pre>";
         var_dump($array4);
         echo "</pre>";
-        echo "<br>";         
+        echo "<br>";
+
+// Multidimentional array
+      $dimension2=array(array('1','2','2','4'),true=>"108012",2.10=>'BASIS',2=>'BASIS Web developmet in php','batch-13');
+        echo "EXAMPLE # 2-dimentional";  
+        echo "<pre>";
+        var_dump($dimension2);
+        echo "</pre>";
+        echo "<br>";
+
+        $dimension3=array(array(array('10','20','30','40'),'1','2','2','4'),true=>"108012",2.10=>'BASIS',2=>'BASIS Web developmet in php','batch-13');
+        echo "EXAMPLE # 3-dimentional";  
+        echo "<pre>";
+        var_dump($dimension3);
+        echo "</pre>";
+        echo "<br>";           
         //
         $loop = array('0' =>'shovon','1'=>'mamun','2'=>'suzon');
         echo "Print Array value using for loop";
