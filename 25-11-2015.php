@@ -14,5 +14,16 @@ and open the template in the editor.
             $print =5;
             echo $print;
         ?>
+        <br>
+        <%
+            echo "ASP tag";
+        %>
+        <br>
+        <?php
+            $a=10;
+            $b=20;
+            $c=$a+$b;
+            echo $c;
+        ?>
     </body>
 </html>
