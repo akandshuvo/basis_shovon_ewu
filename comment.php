@@ -22,6 +22,11 @@
         <br>
 
         <?
+        	/*
+        		>> Taking variable with value.
+        		>> Adding the variables value.
+        		>> Printing sum
+        	*/
             $a=10;
             $b=20;
             $c=$a+$b;
@@ -31,6 +36,10 @@
         <br>
         
         <script language="php">
+   			/*
+				>> Take string in variables
+				>> print them
+   			*/	
             $name="Shovon Rahman";
             $id ="108012";
 
