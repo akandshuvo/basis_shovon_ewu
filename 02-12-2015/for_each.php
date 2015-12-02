@@ -7,7 +7,7 @@
 <body>
 
 <?
-		
+//ONE DIMENTIONAL ARRAY DECLARATION		
 	$goal=[
 			'Ronaldo'=>61,
 			'Messi'=>50,
