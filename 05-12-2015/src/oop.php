@@ -2,14 +2,14 @@
 
 // put your code here
 function __autoload($className){
-	include_once ($className.".php");
+	include_once str_replace("\\", '/', $className.".php");
 
 }
 
-	$duster_white= new Duster('white','12');
-	$duster_red= new Duster('red','13');
-	$duster_green= new Duster('green','13');
-	$duster_black= new Duster('black','13'); 
+	$duster_white= new bitm\product\Duster('white','12');
+	$duster_red= new   bitm\product\Duster('red','13');
+	$duster_green= new bitm\product\Duster('green','13');
+	$duster_black= new bitm\product\Duster('black','13'); 
 
 
 	echo $duster_white->color ; echo "&nbsp;"; echo $duster_white->weight ;
@@ -27,9 +27,9 @@ function __autoload($className){
 
 
 // DECLARING OBJECTS 
-	$shovon = new person();
-	$mamun = new  person();
-	$suzon = new person();
+	$shovon = new bitm\person\Person();
+	$mamun = new bitm\person\Person();
+	$suzon = new bitm\person\Person();
 
 
 	$shovon->name="shovon Rahman";  //SETTER

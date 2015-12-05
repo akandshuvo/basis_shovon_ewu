@@ -1,5 +1,6 @@
 <?php 
 	//declaring class
+namespace bitm\product;
   class Duster{
         public  $color ="";
         public  $weight ="";
