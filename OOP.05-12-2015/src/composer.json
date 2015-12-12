@@ -1,0 +1,8 @@
+{
+    "autoload": {     // define key-> key must be string
+				    "psr-4": {   //define value
+				        "bitm\\product\\": "src/bitm/person/"
+				}
+
+  }
+}
