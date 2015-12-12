@@ -2,7 +2,7 @@
 		/**
 	* 
 	*/
-	namespace src\student;
+	namespace src\bitm\student;
 	class student
 	{
 		

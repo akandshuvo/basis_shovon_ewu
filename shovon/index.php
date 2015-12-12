@@ -34,17 +34,22 @@
 
 
 function __autoload($className){
-		$filename = $className.".php";
+		$filename = str_replace('\\', '/',$className.".php");
 		include_once($filename);
 	}
 
-	use src\student\student;
+	use src\bitm\student\student;
+	use src\bitm\university\university;
 	$student_name = new student();
 	$say_greeting =new student();
 
 	$student_name ->name="Shovon";
 	echo $student_name->name."&nbsp;"."says"."&nbsp;";
 	$say_greeting->greeting("Good morning");
+	echo "<br>";
+
+	$university_name = new university();
+	$university_name->versity_name("HE IS FROM EAST WEST UNIVERSITY");
 
 
 	
